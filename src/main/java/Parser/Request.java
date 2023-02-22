@@ -38,5 +38,10 @@ public class Request {
         this.httpVersion = versionTobeSet;
         return 1;
     }
+    public void printRequest(){
+        System.out.println("Request method: " + this.method);
+        System.out.println("Request: " + this.request);
+        System.out.println("Request HttpVersion: " + this.httpVersion);
+    }
 
 }

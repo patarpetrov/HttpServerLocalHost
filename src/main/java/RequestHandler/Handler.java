@@ -30,7 +30,7 @@ public class Handler {
         }
         else{
             try {
-                System.out.println(path);
+                //System.out.println(path);
                 content = htmlToString(path);
             } catch (FileNotFoundException e) {
                 System.out.println("Can`t downloadfile");
